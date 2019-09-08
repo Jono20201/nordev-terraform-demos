@@ -1,0 +1,6 @@
+# aws cloudformation create-stack --stack-name nordev-cloudformation-bucket  --template-body file://./cloudformation-demo.yml --profile playground --region eu-west-1
+Resources:
+  NorfolkDevelopersBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: norfolk-developers-yaml-bucket

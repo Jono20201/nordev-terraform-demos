@@ -1,0 +1,10 @@
+{
+  "Resources" : {
+    "NorfolkDevelopersBucket" : {
+      "Type" : "AWS::S3::Bucket",
+      "Properties" : {
+        "BucketName": "norfolk-developers-json-bucket"
+      }
+    }
+  }
+}
